@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.portfolio-hero {
+  min-height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+              url("https://via.placeholder.com/1600x700.png?text=Website+Banner") center/cover no-repeat;
+}
+
+.section-title {
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.profile-img {
+  max-width: 260px;
+  border: 5px solid white;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.navbar .nav-link {
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.navbar .nav-link.active {
+  color: #ffc107 !important;
+  font-weight: bold;
+  border-bottom: 2px solid #ffc107;
+}
+
+.footer-link {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+table {
+  background-color: white;
+}
+
+iframe {
+  border-radius: 8px;
+}
